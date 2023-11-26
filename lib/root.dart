@@ -12,7 +12,7 @@ class RootWidget extends StatefulWidget {
 class _RootWidgetState extends State<RootWidget> {
   int _currentIndex = 0;
 
-  @override // test‚
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: IndexedStack(
