@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:fluttergrundlagen/presentation/counter_app/counter_app_page.dart';
 import 'package:fluttergrundlagen/presentation/widgets_example/widgets_examples_page.dart';
 
-class RootWidget extends StatefulWidget {
-  const RootWidget({super.key});
+class RootWidget1 extends StatefulWidget {
+  const RootWidget1({super.key});
 
   @override
-  State<RootWidget> createState() => _RootWidgetState();
+  State<RootWidget1> createState() => _RootWidgetState();
 }
 
-class _RootWidgetState extends State<RootWidget> {
+class _RootWidgetState extends State<RootWidget1> {
   int _currentIndex = 0;
 
   @override
