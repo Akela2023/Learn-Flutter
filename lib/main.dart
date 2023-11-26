@@ -20,6 +20,6 @@ class MyApp extends StatelessWidget {
           "/screen2": (BuildContext countext) => const Screen2(),
         },
         // home: WidgetsExamplesPage()
-        home: const RootWidget()); //kommentar
+        home: const RootWidget()); //kommentar 123jdhdhd
   }
 }
