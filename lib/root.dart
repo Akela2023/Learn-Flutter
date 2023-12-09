@@ -15,9 +15,9 @@ class _RootWidgetState extends State<RootWidget1> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: IndexedStack(
+      body: IndexedStack( // inhalte werden zwischengespeichert beim wechsel der pages
         index: _currentIndex,
-        children: const [WidgetsExamplesPage(), CounterAppPage()],
+        children: const [WidgetsExamplesPage(), CounterAppPage()], //seiten verlinkung 
       ),
       bottomNavigationBar: BottomNavigationBar(
           onTap: (index) {
@@ -28,7 +28,7 @@ class _RootWidgetState extends State<RootWidget1> {
           currentIndex: _currentIndex,
           unselectedItemColor: Colors.grey,
           selectedItemColor: Colors.blue,
-          items: const [
+          items: const [ // liste untem auf dem bildschirm
             BottomNavigationBarItem(icon: Icon(Icons.star), label: "Beispiele"),
             BottomNavigationBarItem(icon: Icon(Icons.add), label: "Counter")
           ]),
